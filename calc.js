@@ -27,7 +27,7 @@ function insertDecimal() {
   if (display.value.indexOf('.') === -1) display.value += '.';
 }
 
-operations = {
+ let operations = {
   none:     function(left, right) { return right; },
   add:      function(left, right) { return left + right; },
   subtract: function(left, right) { return left - right; },

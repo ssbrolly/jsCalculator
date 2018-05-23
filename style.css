@@ -1,4 +1,9 @@
 .calcForm {
-  text-align: center;
+ text-align: center;
+  
+}
+
+div .calcRow{
+  height: 50px;
   
 }
